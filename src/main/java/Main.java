@@ -1,5 +1,3 @@
-package org.example;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/Login_page.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/login_page.fxml"))));
         stage.show();
     }
 }
