@@ -30,14 +30,14 @@ public class LoginPageController {
     }
 
     @FXML
-//    void btn03OnAction(ActionEvent event) {
-//        System.out.println("btn3 clicked");
-//
-//    }
+    void btn03OnAction(ActionEvent event) {
+        System.out.println("btn3 clicked");
 
-//    @FXML
-//    void btnSubmitOnAction(ActionEvent event) {
-//        System.out.println("btn clicked");
-//    }
+    }
+
+    @FXML
+    void btnSubmitOnAction(ActionEvent event) {
+        System.out.println("btn clicked");
+    }
 
 }
