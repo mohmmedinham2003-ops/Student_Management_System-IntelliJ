@@ -37,6 +37,7 @@ public class LoginPageController {
 
     @FXML
     void btnSubmitOnAction(ActionEvent event) {
-        //
+        System.out.println("btn clicked");
+    }
 
 }
